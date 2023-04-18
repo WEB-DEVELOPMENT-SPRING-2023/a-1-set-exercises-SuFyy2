@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-content: center;
+}
+body,html {
+    height: 100%;
+}
+h1{text-align: center;}
