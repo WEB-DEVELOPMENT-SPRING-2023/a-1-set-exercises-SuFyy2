@@ -1,13 +1,16 @@
+/* first here in the body i added a background image for my website*/
 body{
     color: #29a2a0;
     background-image: url(bg.jpg);
 }
+/*next i designed by heading*/
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 2%;
     text-align: center;
     color: #29a2a0;
 }
+/*here i did the border for the whole form,changed the text size and color,and allign everything to the center*/
 form{
     width: max-content;
     margin: auto;
@@ -18,6 +21,7 @@ form{
     font-size: larger;
     font-family: 'Raleway', sans-serif;
 }
+/*here the field named by box1,box2,box3 i changed their background color and made it transparent and designed the text inside the field*/
 .box1{
     font-weight: bolder;
     color: #347b88;
@@ -29,7 +33,7 @@ form{
     margin:0px auto;
     padding:0px;
 }
-
+/*same as the above*/
 .box2{
     font-weight: bolder;
     color: #347b88;
@@ -52,7 +56,9 @@ form{
     margin:0px auto;
     padding:0px;
 }
+/*the code for button hover*/
 .button:hover {background-color: #72cad8}
+/*designing the buttons with minor css attributes*/
 .button{
     padding: 2%;
     font-size: large;

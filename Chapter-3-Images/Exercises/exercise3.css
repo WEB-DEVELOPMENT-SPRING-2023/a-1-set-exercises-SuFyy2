@@ -2,14 +2,18 @@ body{
     background-color: rgb(37, 37, 37);
 }
 h1{
+    margin: 5%;
     text-align: center;
     color: rgb(25, 24, 24);
-    background-color: rgb(188, 11, 11);
+    background-color: #941e1e;
 }
 div{
+    background: #941e1e;
     float: left;
+    font-size: larger;
     margin-left: 20px;
     padding: 40px;
-    color: rgb(255, 255, 255);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
     text-align: center;
 }

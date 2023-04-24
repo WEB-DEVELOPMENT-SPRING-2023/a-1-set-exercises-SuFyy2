@@ -8,22 +8,24 @@
     <title>Petrol calculator</title>
 </head>
 <body>
+    <!--start with a heading h1 for the main heading-->
     <h1>Petrol calculator</h1>
-<div class="content"></div>
+    <!--form tag to create an interactive form to take and give result to the user-->
     <form name="form">
-    <div class="calculator">
-        <p>Petrol cost per litre</p>
+        <p>Petrol cost per litre</p><!--this paragraph is notify user what to type in the below field-->
+        <!--here the user input an amount or default amount already set to 1.75-->
+        <!-- then it is taged by class to style the field in the css -->
+        <!-- it is also taged with an id to use this field for the calculation in the javascript -->
         <input class="box1" id="Amount" value="1.72" type="number"placeholder="Enter Amount">
         <p>Litres Purchased</p>
+        <!-- the same above process is repeated here-->
         <input class="box2" id="Litre" value="0" type="number" placeholder="Enter Litre">
         <br>
         <br>
+        <!-- now here the button tag creates the button for us to calculate the result-->
         <button class="button" onclick="Calculation()">Calculate</button>
-    </div>
-    <div class="Result">
         <p>Total cost</p>
         <input class="box3" type="number" name="Total">
-    </div>
     </form>
     <script src="exercise6.js"></script>
 </div>
