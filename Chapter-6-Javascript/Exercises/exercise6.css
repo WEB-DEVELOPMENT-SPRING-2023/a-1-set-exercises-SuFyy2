@@ -1,0 +1,64 @@
+body{
+    color: #29a2a0;
+    background-image: url(bg.jpg);
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 2%;
+    text-align: center;
+    color: #29a2a0;
+}
+form{
+    width: max-content;
+    margin: auto;
+    padding: 4%;
+    border: solid rgb(255, 255, 255) 3px ;
+    padding-top: 2%;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+}
+.box1{
+    font-weight: bolder;
+    color: #347b88;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background: transparent;
+    border: solid rgb(255, 255, 255) 2px ;
+    width: max-content;
+    margin:0px auto;
+    padding:0px;
+}
+
+.box2{
+    font-weight: bolder;
+    color: #347b88;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background: transparent;
+    border: solid rgb(255, 255, 255) 2px ;
+    width: max-content;
+    margin:0px auto;
+    padding:0px;
+}
+.box3{
+    font-weight: bolder;
+    color: #347b88;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background: transparent;
+    border: solid rgb(255, 255, 255) 2px ;
+    width: max-content;
+    margin:0px auto;
+    padding:0px;
+}
+.button:hover {background-color: #72cad8}
+.button{
+    padding: 2%;
+    font-size: large;
+    background: #29a2a0;
+    border:  solid 0px;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 100%;
+}

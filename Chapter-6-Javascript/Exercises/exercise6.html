@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercise6.css">
     <title>Petrol calculator</title>
 </head>
 <body>
     <h1>Petrol calculator</h1>
+<div class="content"></div>
     <form name="form">
     <div class="calculator">
-        <input id="Amount" value="1.72" type="number"placeholder="Enter Petrol Amount (per litre)">
+        <p>Petrol cost per litre</p>
+        <input class="box1" id="Amount" value="1.72" type="number"placeholder="Enter Amount">
+        <p>Litres Purchased</p>
+        <input class="box2" id="Litre" value="0" type="number" placeholder="Enter Litre">
         <br>
-        <input id="Litre" value="0" type="number" placeholder="Enter Purchased Litre">
         <br>
-        <button onclick="Calculation()">Calculate</button>
+        <button class="button" onclick="Calculation()">Calculate</button>
     </div>
     <div class="Result">
         <p>Total cost</p>
-        <input type="number" name="Total">
+        <input class="box3" type="number" name="Total">
     </div>
     </form>
     <script src="exercise6.js"></script>
+</div>
 </body>
 </html>
