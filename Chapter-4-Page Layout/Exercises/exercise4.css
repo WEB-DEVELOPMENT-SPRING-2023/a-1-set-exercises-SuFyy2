@@ -25,11 +25,21 @@ nav{
     padding-top: 2%;
     text-align: center;
 }
-.nav1{padding-left: 2%;}
-.nav2{padding-left: 2%;}
-.nav3{padding-left: 2%;}
-.nav4{padding-left: 2%;}
-.nav5{padding-left: 2%;}
+.nav1{
+    color: white;
+    padding-left: 2%;}
+.nav2{
+    color: white;
+    padding-left: 2%;}
+.nav3{
+    color: white;
+    padding-left: 2%;}
+.nav4{
+    color: white;
+    padding-left: 2%;}
+.nav5{
+    color: white;
+    padding-left: 2%;}
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;

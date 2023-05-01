@@ -1,0 +1,87 @@
+body{
+    background-color: #232323;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+}
+h1{
+    letter-spacing: 2px;
+    padding: 3%;
+    height: 50px;
+    color: #232323;
+    background-color: aquamarine;
+    text-align: center;
+}
+#turns{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+#options{
+    max-width: 700px;
+  margin: 20px auto;
+}
+#square1{
+    background: white;
+  height: 30%;
+  width: 30%;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  float: left;
+  border-radius: 10%;
+  transition: background 0.7s;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+}
+#square2{
+    background: white;
+  height: 30%;
+  width: 30%;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  float: left;
+  border-radius: 10%;
+  transition: background 0.7s;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+}
+#square3{
+    background: white;
+  height: 30%;
+  width: 30%;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  float: left;
+  border-radius: 10%;
+  transition: background 0.7s;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+}
+
+#msg{
+    letter-spacing: 2px;
+    padding-left: 48%;
+}
+#a{
+    padding-right: 40%;
+
+}
+#strt{
+    font-size: larger;
+    padding-left: 81%;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+    padding-top: 5%;
+    background-color: transparent;
+    border: none;
+}
+#RGB{
+    font-weight: bold;
+    font-size: larger;
+    margin: 0%;
+    padding-left: 44.7%;
+}
