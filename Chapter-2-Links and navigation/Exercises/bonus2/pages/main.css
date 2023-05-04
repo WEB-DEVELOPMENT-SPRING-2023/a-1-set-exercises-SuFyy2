@@ -5,11 +5,16 @@ body{
     color: #000000;
     background-color: rgb(255, 255, 255);
 }
-.nav1{padding-right: 2%;}
-.nav2{padding-right: 2%;}
-.nav3{padding-right: 2%;}
-.nav4{padding-right: 2%;}
-.nav5{padding-right: 2%;}
+.nav1{color: rgb(0, 0, 0);
+    padding-right: 2%;}
+.nav2{color: rgb(0, 0, 0);
+    padding-right: 2%;}
+.nav3{color: rgb(0, 0, 0);
+    padding-right: 2%;}
+.nav4{color: rgb(0, 0, 0);
+    padding-right: 2%;}
+.nav5{color: rgb(0, 0, 0);
+    padding-right: 2%;}
 nav{
     margin: 0%;
     font-size: larger;
