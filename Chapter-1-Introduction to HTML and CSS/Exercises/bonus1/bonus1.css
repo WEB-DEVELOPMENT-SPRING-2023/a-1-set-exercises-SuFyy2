@@ -8,9 +8,9 @@ body{
 header{
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 4%;
+    margin-top: 1%;
     padding: 2%;
-    height: 150px;
+    height: 120px;
 }
 h1{
     padding-top: 2%;
@@ -23,8 +23,10 @@ nav{
     padding-top: 2%;
     text-align: center;
 }
+.nav2{color: rgb(255, 255, 255);}
 
 .nav1{
+    color: rgb(255, 255, 255);
     margin: 0%;
     padding-right: 2%;
 }
@@ -38,8 +40,13 @@ nav{
     padding: 2%;
     margin: 0%;
     background-color: rgb(65, 65, 65);
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 h4{
     color: rgb(223, 255, 80);
 }
+.nav3{color: rgb(255, 255, 255);}
+#back{
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 2%;}
